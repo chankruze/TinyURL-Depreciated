@@ -1,0 +1,24 @@
+name: tinyurl
+description: A Flutter App To Shorten Long URLs
+
+version: 3.0.0+3
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0
+  share: ^0.5.3
+  url_launcher: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/isgdlogo.jpg
+    - images/headerAppLogo.png
