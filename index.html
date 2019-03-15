@@ -6,7 +6,7 @@
     <title>TinyURL</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <!--Google Font link-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130914619-2"></script>
     <script>
@@ -41,7 +41,6 @@
 
         gtag('config', 'UA-130914619-2');
     </script>
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
@@ -111,7 +110,7 @@
                             <a href="#features">Features</a>
                         </li>
                         <li>
-                            <a href="#screen_area">Screenshots</a>
+                            <a href="#screenshots">Screenshots</a>
                         </li>
                         <li>
                             <a href="#download">Download</a>
@@ -135,7 +134,7 @@
 
                             <div class="home_btns m-top-40">
                                 <a href="#download" class="btn btn-danger m-top-20">Download</a>
-                                <a href="#features" class="btn btn-primary m-top-20">Features</a>
+                                <a href="#screenshots" class="btn btn-primary m-top-20">Screenshots</a>
                             </div>
                         </div>
 
@@ -216,6 +215,35 @@
         </section>
         <!-- End off Featured Section-->
 
+        <!--Screenshots Section-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="main_drag roomy-50">
+                        <div class="col-md-12">
+                            <div class="swiper-container">
+                                <div id="screenshots" class="head_title text-center">
+                                    <h2>Screenshots</h2>
+                                    <h5>Just A Look !</h5>
+                                </div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background-image:url(assets/images/screenshots/1.webp)"></div>
+                                    <div class="swiper-slide" style="background-image:url(assets/images/screenshots/2.webp)"></div>
+                                    <div class="swiper-slide" style="background-image:url(assets/images/screenshots/3.webp)"></div>
+                                    <div class="swiper-slide" style="background-image:url(assets/images/screenshots/4.webp)"></div>
+                                    <div class="swiper-slide" style="background-image:url(assets/images/screenshots/5.webp)"></div>
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Off Screenshots Section-->
+
         <!--App Download Section-->
         <section id="download" class="download m-top-100">
             <div class="download_overlay"></div>
@@ -225,7 +253,8 @@
                         <div class="col-md-6">
                             <div class="download_item roomy-100">
                                 <h2 class="text-white">How Download The App?</h2>
-                                <h5 class="text-white m-top-20">Just download the app from the play store. Simple, nice and user-friendly url shortener.</h5>
+                                <h5 class="text-white m-top-20">Just download the app from the play store. Simple, nice
+                                    and user-friendly url shortener.</h5>
 
                                 <div class="download_app m-top-30">
                                     <a href="https://play.google.com/store/apps/details?id=com.geekofia.tinyurl">
